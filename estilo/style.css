@@ -37,14 +37,14 @@ header h1{
     padding-top: 50px;
     font-variant: small-caps;
     font-family: var(--fontH);
-    font-size: 4vw;
+    font-size: 5vw;
    
 }
 
 header p{
     padding-bottom: 50px;
     font-family: var(--fontH);
-    font-size: 2vw;
+    font-size: 3vw;
 
     
 }
