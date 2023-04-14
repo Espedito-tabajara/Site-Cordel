@@ -30,6 +30,8 @@ header{
     
     
     
+    
+    
 
 }
 
@@ -45,6 +47,7 @@ header p{
     padding-bottom: 50px;
     font-family: var(--fontH);
     font-size: 3vw;
+    text-align: center;
 
     
 }
@@ -63,8 +66,8 @@ header a:hover, footer a:hover{
 }
 
 section{
-    padding-top: 10vh;
-    padding-bottom: 10vh;
+    padding-top: 20vh;
+    padding-bottom: 20vh;
     line-height: 2em;
     padding-left: 30px;
     
@@ -72,22 +75,57 @@ section{
 
 section p{
     font-family: var(--fontP);
-    font-size: 2vw;
+    font-size: 2.5vw;
+    text-align: justify;
+    width: 25vw;
+    padding: 20px;
+    
+    
+    
 }
 
 section.normal{
     background-color: white;
     color: black;
+    
+    
 }
 
-section.imagem{
+section.imagem1{
     background-color: black;
     color: white;
+    background-image: url(/imagens/background001.jpg);
+    background-position: 100vw;
+    background-position: center;
+    
+    
 }
 
-section.imagem > p{
+section.imagem2{
+    background-color: black;
+    color: white;
+    background-image: url(/imagens/background002.jpg);
+    background-position: 100vw;
+    background-position: center;
+}
+
+section.imagem1 > p{
     width: 25vw;
     background-color: rgba(95, 93, 93, 0.178);
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgb(0, 0, 0);
+    
+
+}
+
+section.imagem2 > p{
+    width: 25vw;
+    background-color: rgba(45, 45, 45, 0.651);
+    border-radius: 10px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgb(0, 0, 0);
+    
+
 }
 
 footer{
